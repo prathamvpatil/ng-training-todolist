@@ -1,0 +1,10 @@
+Postman Data :
+
+1) View task :-
+	http://localhost:3000/api/tasks
+2) Add task :-
+	http://localhost:3000/api/tasks
+3) Edit task :
+	http://localhost:3000/api/tasks/9
+4) Delete task :
+	http://localhost:3000/api/tasks/8

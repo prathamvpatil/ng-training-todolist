@@ -1,0 +1,34 @@
+/* Override default Toastify styles */
+.Toastify__toast {
+    background-color: #323232; /* Dark background for the toast */
+    color: white; /* White text color */
+    border-radius: 8px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+    padding: 15px; /* Padding inside the toast */
+}
+
+/* Success Toast */
+.Toastify__toast--success {
+    background-color: #4caf50; /* Green background for success */
+}
+
+/* Error Toast */
+.Toastify__toast--error {
+    background-color: #f44336; /* Red background for errors */
+}
+
+/* Info Toast */
+.Toastify__toast--info {
+    background-color: #2196f3; /* Blue background for info */
+}
+
+/* Customizing the close button */
+.Toastify__close-button {
+    color: white; /* Close button color */
+}
+
+/* Customize toast position */
+.Toastify__toast-container {
+    top: 20px; /* Adjust top positioning */
+    right: 20px; /* Adjust right positioning */
+}

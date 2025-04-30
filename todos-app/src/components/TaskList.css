@@ -1,0 +1,95 @@
+.task-list {
+    margin-top: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f4f4f4; /* Header background color */
+    color: #333; /* Header text color */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternating row colors */
+  }
+  
+  tr:hover {
+    background-color: #f1f1f1; /* Highlight on row hover */
+  }
+  
+  button {
+    background-color: #ffb400; /* Same button color as modal */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #e0a500; /* Darker shade on hover */
+  }
+  
+  .pagination-controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination-controls button {
+    margin: 0 5px;
+    padding: 8px 12px;
+    background-color: #007bff; /* Pagination button color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .pagination-controls button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+  }
+  
+  .pagination-controls button:disabled {
+    background-color: #ccc; /* Disabled button color */
+  }
+  
+  .pagination-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .pagination-controls button {
+    padding: 8px 12px;
+    margin: 0 5px;
+    background-color: #ffb400; /* Button color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .pagination-controls button:hover {
+    background-color: #e0a500; /* Darker shade on hover */
+  }
+  
+  .pagination-controls button:disabled {
+    background-color: #ccc; /* Disabled button color */
+    cursor: not-allowed; /* Not-allowed cursor */
+  }
+  
+  .pagination-controls span {
+    margin: 0 10px; /* Spacing around page number */
+    font-size: 16px; /* Page number font size */
+  }
+  
